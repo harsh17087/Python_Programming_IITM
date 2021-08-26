@@ -44,3 +44,5 @@ shifted_string = shifted_string + alpha[((alpha.index(name[i + 4]) + k) % 26)]
 print(shifted_string)
 
 # This also forms the basics of cryptography based encryption technique
+
+# We will automate it with loops in next sections

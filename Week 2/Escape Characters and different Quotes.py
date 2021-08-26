@@ -31,4 +31,10 @@ print(z)  # We will use triple quotes to print lines on new line
 
 print('My name is Harsh.\nI am a student.\nI live in Gaya')
 
+# output
+"""
+My name is Harsh.
+I am a student.
+I live in Gaya
 
+"""
