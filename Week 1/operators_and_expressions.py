@@ -47,3 +47,27 @@ True and True yields True
 False and True yields False
 
 '''
+
+# Some more tips and tricks
+
+var1, var2 = 1, 2
+print(var1, var2)  # this statement will print 1 2
+
+var1 = var2 = var3 = 100
+
+print(var1, var2, var3)  # This statement will print 100 100 100
+
+# Let's convert int to float by one more method
+
+var1 = var1 / 1
+print(var1)  # The output will give 100.0 as dividing by '/' operator converts int to float
+
+var2 = var2 // 1
+print(var2)  # The output will be 100
+
+# Suppose you want to search whether a substring is present in a string or not
+
+print('Harsh' in 'My name is Harsh')              # Will give True
+print('Hello' in 'This is my repository')         # Will give False
+print('Hello' in 'hello world!')                  # Will give False
+
